@@ -38,5 +38,5 @@ end
 % % s=(K/a)+1;
 % % R0=(R(s,s+1)+R(s,s-1)+R(s+1,s)+R(s-1,s))/4
 % %  set boundary condition
-bcMatrix = g-besselk(0,sqrt(location.x.^2+location.y.^2))/(2*pi) ; % OK to vectorize
+bcMatrix = g-besselk(0,sqrt(location.x.^2+location.y.^2))/(2*pi); % OK to vectorize
 end
